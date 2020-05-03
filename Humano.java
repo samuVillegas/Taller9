@@ -100,8 +100,4 @@ public  abstract class Humano {
     @Override
    public abstract String toString(); 
 
-    void ObtenerArma(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
-
 }
