@@ -68,7 +68,7 @@ public class JugadorNormal extends Humano{
             break;
             case "M":
                 
-               System.out.println("Ha ingresado el manú de armas\n1. Obtener Armas\n2. Cambiar Arma\n3. Seguir jugando");
+               System.out.println("Ha ingresado el menú de armas\n1. Obtener Armas\n2. Cambiar Arma\n3. Seguir jugando");
                int pre=entrada.nextInt();
                while(pre!=3){
                    switch (pre) {
@@ -84,7 +84,7 @@ public class JugadorNormal extends Humano{
                            break;
                    }
                    
-                    System.out.println("Ha ingresado el manú de armas\n1. Obtener Armas\n2. Cambiar Arma\n3. Seguir jugando");
+                    System.out.println("Ha ingresado el menú de armas\n1. Obtener Armas\n2. Cambiar Arma\n3. Seguir jugando");
                    pre=entrada.nextInt();
                }
             break;

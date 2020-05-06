@@ -139,6 +139,7 @@ public class Juego {
                 h1.armas.get(ubi_arma).setMunicion(municion1 - 1);
             } else {
                 h1.armas.get(ubi_arma).recargar();
+                System.out.println("Recargando...");
             }
 
         }
@@ -149,7 +150,7 @@ public class Juego {
             dano_arma2 = h2.arma.getDano();
             h2.arma.setMunicion(municion1 - 1);
         } else {
-            System.out.println("Recargando...");
+            
             h2.arma.recargar();
         }
 
